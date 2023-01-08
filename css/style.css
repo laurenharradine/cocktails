@@ -15,6 +15,9 @@ img{
   margin: 0 auto;
 }
 
+header {
+  background-image: url("https://laurenharradine.github.io/cocktails/img/blue.jpg");;
+}
 
 /******************************************
 /* ADDITIONAL STYLES
