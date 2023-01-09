@@ -33,9 +33,9 @@ img{
 header {
   background-image: url("https://laurenharradine.github.io/hosted-assets/cocktails/blue.jpg");
   background-size: 100%;
-  width: 50%;
-  height: 540px;
-  border-radius: 100px;
+  width: 95%;
+  max-height: 400px;
+  border-radius: 0px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -216,13 +216,39 @@ h1 {
 h2 {
   font-size: 40px;
   /* color: rgba(195, 246, 255, 0.5); */
-  color: rgba(8, 67, 71, 0.75);
+  color: rgba(244, 101, 0, 0.988);
+  text-align: center;
+  margin-top: 0;
+}
+
+h3 {
+  font-size: 30px;
+  color: rgba(244, 101, 0, 0.988);
   text-align: center;
 }
 
-p {
+p, li {
   font-size: 26px;
   /* color: rgba(195, 246, 255, 0.5); */
   color: rgba(244, 101, 0, 0.988);
   text-align: center;
+}
+
+ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+@media only screen and (max-width: 1180px) {
+  header {
+    background-image: url("https://laurenharradine.github.io/hosted-assets/cocktails/blue.jpg");
+    background-size: 105%;
+    width: 95%;
+    height: 150px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
 }
